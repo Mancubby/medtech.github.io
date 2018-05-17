@@ -95,6 +95,22 @@ border-style: dashed;
 border-width: 4px;
 border-color: #007272;
 background: #008c8c;
+
+}
+
+.sidebar{
+margin-right:auto;
+margin-left: 20px;
+margin-top:20px;
+width:200px;
+border-style: dashed;
+border-width: 4px;
+border-color: #007272;
+background: #008c8c;
+}
+
+.page{
+display:flex;
 }
 
 .welcome{
