@@ -84,9 +84,6 @@ margin-right:100px;
 }
 
 .bodysection{
-font-family:;
-font-size:;
-color:;
 margin-left:auto;
 margin-right:auto;
 margin-top:20px;
@@ -111,6 +108,9 @@ background: #008c8c;
 
 .page{
 display:flex;
+width:720px;
+margin-left:auto;
+margin-right:auto;
 }
 
 .welcome{
@@ -133,6 +133,10 @@ line-height:1.5;
 border-style: dashed;
 border-width: 4px;
 border-color: #007272;
+}
+
+#sideimg{
+position:absolute;
 }
 
 .signature{
