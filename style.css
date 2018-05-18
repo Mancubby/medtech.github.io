@@ -43,6 +43,7 @@ text-align: center;
 border-style: outset;
 border-width: 8px;
 border-color:#018c8c;
+height:325px;
 }
 
 a:link{
@@ -95,6 +96,10 @@ background: #008c8c;
 
 }
 
+#testheight{
+height:1000px
+}
+
 .sidebar{
 margin-right:auto;
 margin-left: 20px;
@@ -104,14 +109,36 @@ border-style: dashed;
 border-width: 4px;
 border-color: #007272;
 background: #008c8c;
+height:99%;
+position:absolute;
+right:30%;
+left:70%;
+top:-20px;
 }
 
+/*Content container css*/
 .page{
-display:flex;
-width:720px;
+width:750px;
 margin-left:auto;
 margin-right:auto;
+position:relative;
 }
+
+/*Used to move content over so that sidebar fits*/
+#contentmoveleft{
+margin-right:260px;
+}
+
+.video{
+border-style: dashed;
+border-width: 4px;
+border-color: #007272;
+}
+
+#centered{
+text-align:center;
+}
+
 
 .welcome{
 text-indent:50px;
@@ -136,7 +163,7 @@ border-color: #007272;
 }
 
 #sideimg{
-position:absolute;
+position:;
 }
 
 .signature{
